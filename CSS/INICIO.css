@@ -1,0 +1,189 @@
+/*Parte del header de hardcoregym en negro*/
+.header{
+    background-color: black ;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 20px;
+}
+.col-sm-12{
+    background-color: #26425a;
+}
+#fila2{
+    background-color: #26425a;
+    
+}
+/*NavBar*/
+#logo{
+    text-align: left;
+}
+.botonesdecambiodepagina{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.botonesdecambiodepagina:hover{
+    background-color: gray;
+}
+#search-box{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    width: 200px;
+}
+.btn-usuario{
+    background-color: #e1cbd7;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid;
+}
+.btn-usuario:hover{
+    background-color: lightcoral;
+}
+#fila2izquierda{
+    margin-top: -15px;
+}
+#fila2medio{
+margin-top: 20px;
+    text-align: center;
+}
+#fila2derecha{
+    margin-top: 10px;
+    text-align: center;
+}
+/*cuerpo de la pagina*/
+#cuerpocompleto{
+    background-color: #86a8cf;
+}
+#Bienvenido{
+    color: #e8490f;
+    text-align: center;
+}
+.texto{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+#imggym{
+    height: 400px;
+    width: 900px;
+    border-radius: 20px;
+    border: 1px;
+}
+#cuerpomedio{
+    text-align: center;
+}
+#barra1{
+    width: 900px;
+    height: 8px;
+    background: black ;
+    opacity: 1;
+    border-radius: 10px;
+}
+#barra2{
+    width: 600px;
+    opacity: 1;
+    border-radius: 10px;
+    height: 8px;
+    background: black ;
+}
+#mejorplan{
+    background-color: #8516ee;
+    display: inline-block;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+table{
+    font-size: 25px;
+    position:relative;
+    margin-top: auto;
+    width: 100%;
+}
+td{
+    border-color: black;
+    border: 1px solid;
+}
+.equis{
+    color: black;
+}
+#promocion{
+    font-size: 25px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 20px;
+    font-weight: 800;
+    color: white;
+}
+/*
+Tarjetas de planes
+*/
+.Tarjeta{
+    border: 2px solid;
+    width: 250px;
+    background-color: #f4c200;
+    border-radius: 20px;
+    height: 430px;
+    padding: 10px;
+    margin-left:20%;
+}
+.titulotar{
+    color: white;
+    text-align: center;
+}
+.contenidotar{
+    background-color: #f7e59c;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    height: 360px;
+    font-weight: 600;
+}
+.titulotarjeta{
+    font-weight: 800;
+}
+.Incluye{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+.precio{
+    background-color: red;
+    height: 80px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left:20%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.cantidad{
+    font-weight: 800;
+    font-size:50px;
+    margin-left: 10%;
+    color: white;
+}
+.moneda{
+display: inline-block;
+max-width: 30px;
+margin-left:5px;
+color: white;
+font-weight: 600;
+}
+#cantidad2{
+    margin-left: 18%;
+}
+/*Footer*/
+#footer{
+    background-color: black;
+    color: white;
+}
+#footerlogo{
+    text-align: center;
+}
