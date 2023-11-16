@@ -11,18 +11,21 @@
 }
 #fila2{
     background-color: #26425a;
-    
+    height: 100%;
 }
 /*NavBar*/
 #logo{
-    text-align: left;
+    margin-left: -17%;
+    margin-top: -5%;
+    width: 100%;
 }
 .botonesdecambiodepagina{
-    background-color: white;
+    background-color: #e0e0e0;
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
     font-weight: 700;
+    width: 20%;
 }
 .botonesdecambiodepagina:hover{
     background-color: gray;
@@ -31,13 +34,14 @@
     border: 1px solid;
     border-radius: 10px;
     margin-bottom: 2px;
-    width: 200px;
+    width: 300px;
 }
 .btn-usuario{
     background-color: #e1cbd7;
     border-radius: 10px;
     padding: 5px;
     border: 1px solid;
+    width: 40%;
 }
 .btn-usuario:hover{
     background-color: lightcoral;
@@ -59,11 +63,16 @@ margin-top: 20px;
 }
 #Bienvenido{
     color: #e8490f;
+    font-family: sans-serif;
     text-align: center;
+    font-size: 52px;
+    font-weight: bold;
 }
 .texto{
+    font-family: sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    color: #333333;
     font-weight: 600;
 }
 #imggym{
@@ -76,7 +85,7 @@ margin-top: 20px;
     text-align: center;
 }
 #barra1{
-    width: 900px;
+    width: 666px;
     height: 8px;
     background: black ;
     opacity: 1;
@@ -113,12 +122,12 @@ td{
 }
 #promocion{
     font-size: 25px;
-    background-color: red;
+    background-color: #cf170a;
     display: inline-block;
     border-radius: 10px;
     padding: 10px;
     border: 1px solid black;
-    margin-left: 20px;
+    margin-left: 130px;
     font-weight: 800;
     color: white;
 }
@@ -155,7 +164,7 @@ Tarjetas de planes
     margin-left: 30px;
 }
 .precio{
-    background-color: red;
+    background-color: #cf170a;
     height: 80px;
     width: 250px;
     border: 2px solid black;
@@ -186,4 +195,76 @@ font-weight: 600;
 }
 #footerlogo{
     text-align: center;
+}
+
+#logopt2{
+    width: 396px;
+}
+
+#siguenos{
+    font-weight: bold;
+    color: white;
+    font-size: 29px;
+}
+
+#terminos{
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    margin-left: 1%;
+}
+
+#linea1{
+    height: 5px;
+    color: white;
+}
+
+#linea2{
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    padding: 10px 0;
+    background-color: #000000;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: unset;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hoover {
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
 }
