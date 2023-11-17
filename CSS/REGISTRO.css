@@ -2,15 +2,39 @@ body{
     background-color: #08468c;
 }
 
-#caja1
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#linea1
 {
+    width: 50%;
+    height: 5px;
+    background-color: #000;
+    border-style: dashed;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#linea2
+{
+    width: 25%;
+    height: 5px;
+    background-color: #000;
+    border-style: dashed;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#caja3{
     font-weight: bold;
     font-family:sans-serif;  
     font-size: 24px;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 0px;
-    width: 500px;
+    width: 100.8%;
     margin: 0px auto;
     color: #000000; 
     background:#bdbdbd; 
@@ -20,25 +44,23 @@ body{
     margin-left: -0.5%;
 }
 
-#logo{
+#logo2{
     width: 35%;
-    margin-left: -30%;
+    margin-left: -45%;
 }
 
-#sesion
-{
+#registro{
     margin-left: 10%;
     display: inline-block;
 }
 
-#caja2
-{
+#caja4{
     font-family:sans-serif;  
     font-size: 15px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 500px;
+    width: 50%;
     margin: 0px auto;
     color: #000000; 
     background:#cadae1; 
@@ -47,26 +69,36 @@ body{
     margin-top: 10%;
 }
 
-p{
-    font-size: 20px;
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+#contenedor > div {
+    width: 50%;
+}
+
+.texto{
+    font-size: 16px;
     font-family: sans-serif;
     font-weight: bold;
-    text-align: center;
+    color:#1a1a1a ;
+    margin-left: -24%;
 }
 
-.datos{
+.datos2{
     border: 1px solid;
-    border-radius: 5px;
     margin-bottom: 2px;
-    width: 300px;
+    width: 290px;
     padding: 1%;
+    margin-left: -5%;
 }
 
-#rol{
-    background-color: #bdbdbd;
-}
-
-#redireccion{
+.texto2{
+    font-size: 16px;
     font-family: sans-serif;
-    font-size: 15px;
+    font-weight: bold;
+    color:#1a1a1a ;
+    margin-left: -43%;
 }
