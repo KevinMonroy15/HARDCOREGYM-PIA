@@ -1,30 +1,64 @@
 body{
-    background-color: #08468c;
+    background-color: #86a8cf;
 }
 
-p{
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: bold;
+.header{
+    background-color: black ;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 20px;
+}
+.col-sm-12{
+    background-color: #26425a;
+}
+#fila2{
+    background-color: #26425a;
+    height: 100%;
+}
+/*NavBar*/
+#logo{
+    margin-left: -17%;
+    margin-top: -5%;
+    width: 100%;
+}
+.botonesdecambiodepagina{
+    background-color: #e0e0e0;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 20%;
+}
+.botonesdecambiodepagina:hover{
+    background-color: gray;
+}
+#search-box{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    width: 300px;
+}
+.btn-usuario{
+    background-color: #e1cbd7;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid;
+    width: 40%;
+}
+.btn-usuario:hover{
+    background-color: lightcoral;
+}
+#fila2izquierda{
+    margin-top: -15px;
+}
+#fila2medio{
+margin-top: 20px;
     text-align: center;
 }
-
-#linea1
-{
-    width: 50%;
-    height: 5px;
-    background-color: #000;
-    border-style: dashed;
-    border-radius: 5px 5px 5px 5px;
-}
-
-#linea2
-{
-    width: 25%;
-    height: 5px;
-    background-color: #000;
-    border-style: dashed;
-    border-radius: 5px 5px 5px 5px;
+#fila2derecha{
+    margin-top: 10px;
+    text-align: center;
 }
 
 #caja3{
@@ -63,7 +97,7 @@ p{
     width: 50%;
     margin: 0px auto;
     color: #000000; 
-    background:#86a8cf; 
+    background:#08468c; 
     border-radius: 5px 5px 5px 5px;
     border:2px solid black; 
     margin-top: 10%;
@@ -79,11 +113,18 @@ p{
     width: 50%;
 }
 
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
 .texto{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: bold;
-    color:#1a1a1a ;
+    color:#ffffff ;
     margin-left: -24%;
 }
 
@@ -99,6 +140,6 @@ p{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: bold;
-    color:#1a1a1a ;
+    color:#ffffff ;
     margin-left: -43%;
 }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi perfil</title>
+
+    <!--Libreria de Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<link rel="stylesheet" href="CSS/PERFIL.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<body>
+    <div class="container-border">
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="header">MI PERFIL</p>
+            </div>
+        </div>
+        <div class="row" id="fila2">
+            <div class="col-md-3 col-sm-4" id="fila2izquierda">
+                <img src="IMG/logo.png" id="logo" alt="">
+            </div>
+            <div class="col-md-6 col-sm-4" id="fila2medio">
+                <input type="button" class="botonesdecambiodepagina" id="btn-inicio" value="Inicio">
+                <input type="button" class="botonesdecambiodepagina" id="btn-tienda" value="Tienda">
+                <input type="button" class="botonesdecambiodepagina" id="btn-sucursales" value="Sucursales">
+                <input type="button" class="botonesdecambiodepagina" id="btn-conocenos" value="Conócenos!">
+            </div>
+            <div class="col-md-3 col-sm-4" id="fila2derecha">
+                <input type="text" placeholder="Que estas buscando?" id="search-box">
+                <div>
+                    <input type="button" class="btn-usuario" id="btn-registrarse" value="Registrate">
+                    <input type="button" class="btn-usuario" id="btn-iniciarsesion" value="Iniciar Sesión">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Ventana de información-->
+    <div id = "caja4">
+        <div id = "caja3">
+            <img id = "logo2" src="./IMG/logo.png" alt="">
+            <p id = "registro">MI PERFIL</p>
+        </div>
+        <br>
+        <div id="contenedor">
+            <div>
+              <p class = "texto">Nombre de usuario</p>
+              <input  class = "datos2" type="text" placeholder="ejemplodeusuario">
+              <br><br>
+              <p class = "texto2">Actualizar contraseña</p>
+              <input  class = "datos2" type="text" placeholder="Contraseña">
+              <br><br>
+              <p class = "texto2">Confirme la contraseña</p>
+              <input  class = "datos2" type="text" placeholder="Contraseña">
+            </div>
+            <div>
+              <p class = "texto">Correo electronico</p>
+              <input  class = "datos2" type="text" placeholder="alguien@ejemplo.com">
+              <br><br>
+              <p class = "texto">Ingresa tu número telefónico</p>
+              <input  class = "datos2" type="text" placeholder="555-555-555">
+            </div>
+          </div>
+          <br><br>
+          <button id = "btn-siguiente" type="button" class="btn btn-primary">Siguiente</button>
+    </div>
+
+    <!--Libreria de Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
