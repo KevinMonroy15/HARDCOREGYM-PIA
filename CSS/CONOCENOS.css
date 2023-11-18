@@ -1,3 +1,6 @@
+body{
+    background-color: #86a8cf;
+}
 /*Parte del header de hardcoregym en negro*/
 .header{
     background-color: black ;
@@ -56,6 +59,66 @@ margin-top: 20px;
 #fila2derecha{
     margin-top: 10px;
     text-align: center;
+}
+
+/*Contenido Conocenos*/
+/*Imagen con texto superpuesto*/
+#gym{
+    width: 100%;
+    height: 450px;
+    margin-left: 0%;
+}
+.texto-superpuesto {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
+
+#name{
+    color: #86a8cf;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20%;
+}
+
+/*Informacion FACILIDADES y ACCESIBILIDAD*/
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+#contenedor > div {
+    width: 50%;
+}
+
+#icono{
+    width: 25%;
+    margin-left: 38%;
+}
+
+.texto{
+    color: #000000;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+h2{
+    color: #000000;
+
+    margin-left: 35%;   
 }
 /*Footer*/
 #footer{
