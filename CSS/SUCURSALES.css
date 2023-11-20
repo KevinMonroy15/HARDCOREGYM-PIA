@@ -1,3 +1,7 @@
+body{
+    background-color: #86a8cf;
+}
+
 /*Parte del header de hardcoregym en negro*/
 .header{
     background-color: black ;
@@ -56,6 +60,17 @@ margin-top: 20px;
 #fila2derecha{
     margin-top: 10px;
     text-align: center;
+}
+
+/*Contenido*/
+h1{
+    font-size: 400%;
+    color: #000000;
+    text-align: center;
+}
+
+#carouselExampleControls{
+    width: 20%;
 }
 /*Footer*/
 #footer{
