@@ -95,6 +95,9 @@ h1{
 .tarjeta-info{
     width: 350px;
 }
+.estrellas{
+    width: 60%;
+}
 /*Footer*/
 #footer{
     background-color: black;
