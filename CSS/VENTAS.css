@@ -1,0 +1,159 @@
+body{
+    background-color: #86a8cf;
+}
+
+/*Parte del header de hardcoregym en negro*/
+.header{
+    background-color: black ;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 20px;
+}
+.col-sm-12{
+    background-color: #26425a;
+}
+#fila2{
+    background-color: #26425a;
+    height: 100%;
+}
+/*NavBar*/
+#logo{
+    margin-left: -17%;
+    margin-top: -5%;
+    width: 100%;
+}
+.botonesdecambiodepagina{
+    background-color: #e0e0e0;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 20%;
+}
+.botonesdecambiodepagina:hover{
+    background-color: gray;
+}
+#search-box{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    width: 300px;
+}
+.btn-usuario{
+    background-color: #e1cbd7;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid;
+    width: 40%;
+}
+.btn-usuario:hover{
+    background-color: lightcoral;
+}
+#fila2izquierda{
+    margin-top: -15px;
+}
+#fila2medio{
+margin-top: 20px;
+    text-align: center;
+}
+#fila2derecha{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Contenido*/
+h1{
+    color: #e8490f; 
+    font-size: 52px;
+    font-family: sans-serif;
+    text-align: center; 
+    font-weight: bold;
+}
+
+#opcionesadmin{
+    margin-left: 30%;
+}
+
+#tabla{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.centro{
+    text-align: center;
+}
+
+/*Footer*/
+#footer{
+    background-color: black;
+    color: white;
+}
+#footerlogo{
+    text-align: center;
+}
+
+#logopt2{
+    width: 396px;
+}
+
+#siguenos{
+    font-weight: bold;
+    color: white;
+    font-size: 29px;
+}
+
+#terminos{
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    margin-left: 1%;
+}
+
+#linea1{
+    height: 5px;
+    color: white;
+}
+
+#linea2{
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+}
+.footer{
+    padding: 10px 0;
+    background-color: #000000;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: unset;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hoover {
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
